@@ -97,3 +97,72 @@ button:hover {
   margin-bottom: 10px;
 
 }
+/* Education page fix */
+.education h2 {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.education p {
+  color: #374151;
+  font-size: 1rem;
+}
+.education ul {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.education li {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  list-style: none;
+  text-align: left;
+}
+/* Skills Page Styling */
+.skills ul {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.skills li {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  list-style: none;
+  text-align: left;
+  font-weight: 500;
+  color: #1f2937;
+}
+/* Contact Page Styling */
+.contact ul {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+.contact li {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  list-style: none;
+  text-align: left;
+  font-weight: 500;
+  color: #1f2937;
+}
+footer {
+  background-color: #111827;   /* same as navbar */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #2e303a;
+  margin-top: auto;
+}
