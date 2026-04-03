@@ -1,0 +1,99 @@
+/* 🌐 Page Layout */
+.page {
+  padding: 60px 20px;
+  min-height: 80vh;
+  text-align: center;
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(to right, #f8fafc, #eef2f7);
+}
+
+/* 🏷️ Heading */
+.page h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #1f2937;
+  letter-spacing: 1px;
+}
+
+/* 📄 Text */
+.page p {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+/* 📋 List */
+.page ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* 📌 List items (clean lines instead of cards) */
+.page li {
+  font-size: 1.1rem;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+/* ✨ Hover effect */
+.page li:hover {
+  background-color: #f1f5f9;
+  transform: translateX(5px);
+}
+
+/* 🔘 Button */
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 10px;
+  color: #4b5563;
+}
+
+.hero-subtext {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #1d4ed8;
+}
+.page education{
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-bottom: 10px;
+
+}
